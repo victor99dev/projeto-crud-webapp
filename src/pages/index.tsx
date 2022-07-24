@@ -1,14 +1,40 @@
 import {Task} from 'src/interfaces/Tasks';
+import {Grid, Button} from 'semantic-ui-react';
+import {useRouter} from 'next/router';
+import TaskList from 'src/components/tasks/TaskList';
+import Layout from 'src/components/layout'
+
 
 interface Props {
   tasks: Task[]
 }
 
-export default function index({tasks} : Props) {
+export default function IndexPage({tasks} : Props) {
 
-  {
-   tasks.length === 0 ? <h1>No Taskj</h1> : <h1>Tasks</h1>
-  }
+  const router = useRouter();
+
+  
+  return ( 
+      <Layout>
+      {tasks.length === 0 ? (
+      <Grid 
+        columns={2} 
+        centered 
+        verticalAlign='middle' 
+        style={{height: '70%'}}
+      >
+        <Grid.Row>
+          <Grid.Column textAlign='center'>
+            <h1>Nenhum(a) colaborador(a) cadastrado(a).</h1>
+            <Button color='blue'onClick={() => router.push('/tasks/new')}>Cadastrar Colaborador(a)</Button>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    )  : (
+      <TaskList tasks={tasks}/>
+    )}
+    </Layout>
+  );
 }
 
 export const getServerSideProps = async () => {
@@ -16,9 +42,6 @@ export const getServerSideProps = async () => {
   const tasks = await res.json();
 
 return {
-  props: {
-    tasks: tasks,
-  },
-};
-
+  props: {tasks},
+  };
 };

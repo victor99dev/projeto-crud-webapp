@@ -1,6 +1,6 @@
-import {Pool} from 'pg'
+import {Pool} from 'pg';
 
-let conn: any
+let conn: any;
 
 if (!conn) {
     conn =  new Pool({
@@ -9,7 +9,7 @@ if (!conn) {
             host: 'localhost',
             port: 5432,
             database: 'db_webapp'
-        })
+        });
 }
 
 export {conn};

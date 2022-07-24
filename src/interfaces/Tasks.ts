@@ -14,5 +14,5 @@ export interface Task {
     STATUS: string;
     R_SOCIAL: string;
     DESCR: string;
-    CREATE_ON: string;
+    CREATE_ON?: string;
 }

@@ -20,7 +20,7 @@ function TaskList({tasks}: Props) {
             <br/>
             <Card.Description>Descrição: {task.descr}</Card.Description>
             <br/>
-            <Card.Meta> Última Alteração: {new Date(task.create_on).toLocaleDateString()}</Card.Meta>
+            <Card.Meta> Data de cadastro: {new Date(task.create_on).toLocaleDateString()}</Card.Meta>
           </Card.Content>
         </Card>
       ))}

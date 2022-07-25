@@ -126,7 +126,6 @@ export default function newPage() {
                                     name='NOME' 
                                     onChange={handleChange}
                                     value={task.NOME}
-                        
                                 />
                             </Form.Field>
 
@@ -138,7 +137,6 @@ export default function newPage() {
                                     name='IDADE'
                                     onChange={handleChange}
                                     value={task.IDADE}
-                                    
                                 />
                             </Form.Field>
 
@@ -150,7 +148,6 @@ export default function newPage() {
                                     name='SEXO'
                                     onChange={handleChange}
                                     value={task.SEXO}
-                                    
                                 />
                             </Form.Field>
 
@@ -162,7 +159,6 @@ export default function newPage() {
                                     name='CPF'
                                     onChange={handleChange}
                                     value={task.CPF}
-                                    
                                 />
                             </Form.Field>
 
@@ -174,7 +170,6 @@ export default function newPage() {
                                     name='CID'
                                     onChange={handleChange}
                                     value={task.CID}
-                                    
                                 />
                             </Form.Field>
 
@@ -186,7 +181,6 @@ export default function newPage() {
                                     name='UF'
                                     onChange={handleChange}
                                     value={task.UF}
-                                    
                                 />
                             </Form.Field>
 
@@ -198,7 +192,6 @@ export default function newPage() {
                                     name='TELE_COL'
                                     onChange={handleChange}
                                     value={task.TELE_COL}
-                                    
                                 />
                             </Form.Field>
 
@@ -210,7 +203,6 @@ export default function newPage() {
                                     name='EMAIL'
                                     onChange={handleChange}
                                     value={task.EMAIL}
-                                    
                                 />
                             </Form.Field>
 
@@ -222,7 +214,6 @@ export default function newPage() {
                                     name='SENHA'
                                     onChange={handleChange}
                                     value={task.SENHA}
-                                    
                                 />
                             </Form.Field>
 
@@ -234,7 +225,6 @@ export default function newPage() {
                                     name='DEPA'
                                     onChange={handleChange}
                                     value={task.DEPA}
-                                    
                                 />
                             </Form.Field>
 
@@ -246,7 +236,6 @@ export default function newPage() {
                                     name='GRUPO'
                                     onChange={handleChange}
                                     value={task.GRUPO}
-                                    
                                 />
                             </Form.Field>
 
@@ -258,7 +247,6 @@ export default function newPage() {
                                     name='STATUS'
                                     onChange={handleChange}
                                     value={task.STATUS}
-                                    
                                 />
                             </Form.Field>
 
@@ -270,7 +258,6 @@ export default function newPage() {
                                     name='R_SOCIAL'
                                     onChange={handleChange}
                                     value={task.R_SOCIAL}
-                                    
                                 />
                             </Form.Field>
 
@@ -311,7 +298,6 @@ export default function newPage() {
                 </Card>
             </Grid.Column>
         </Grid>
-
         <Confirm
             header = 'Excluir Registro'
             content = {`Você deixa  realmente excluir`}

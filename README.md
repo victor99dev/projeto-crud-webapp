@@ -6,7 +6,7 @@ Seja bem vindo ao meu projeto, feito totalmente para meus estudos e aperfeiçoam
 
 - Criação da API foi bem tranquilo de fazer, fiz o teste da mesma via Insomnia.
 
-- Todas solicitações como GET, POST, PUT e DELETE que correspondem como CREATE, READ, UPDATE e DELETE (CRUD) estavam funcionando perfeitamente.
+- Todas solicitações como GET, POST, PUT e DELETE que correspondem como CREATE, READ, UPDATE e DELETE (CRUD) estão funcionando perfeitamente.
 
 - Utilizei o pacote node-postgres, foi bastante fundamental para poder trabalhar a aplicação juntamente ao banco de dados.
 

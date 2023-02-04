@@ -12,7 +12,9 @@ Seja bem vindo ao meu projeto, feito totalmente para meus estudos e aperfeiçoam
 
 - No nosso WebAPP podemos criar um novo colaborador, assim como editar ou excluí-lo.
 
-- No projeto temos também o SQL `/database/db.sql` com os comandos que utilizei para criação do banco de dados e tabelas necessárias, assim como também inserir seus dados em cada tabela.
+- No projeto temos também o SQL `/database/db.sql` com os comandos que utilizei para criação do banco de dados e tabelas necessárias, assim como também inserir seus dados em cada tabela. Infelizmente não utilzei um ORM, fiz o SQL puro para o mesmo.
+
+Segue um novo projeto voltado somente ao Back-End.
 
 Necessário NodeJS instalado para executar o projeto.
 

@@ -14,7 +14,7 @@ Seja bem vindo ao meu projeto, feito totalmente para meus estudos e aperfeiçoam
 
 - No projeto temos também o SQL `/database/db.sql` com os comandos que utilizei para criação do banco de dados e tabelas necessárias, assim como também inserir seus dados em cada tabela. Infelizmente não utilzei um ORM, fiz o SQL puro para o mesmo.
 
-Segue um novo projeto voltado somente ao Back-End.
+[Segue o mesmo projeto voltado somente ao Back-End.](https://github.com/torugo99/collaborator-service-nestjs)
 
 Necessário NodeJS instalado para executar o projeto.
 
